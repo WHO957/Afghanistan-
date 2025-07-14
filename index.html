@@ -7,20 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
   <style>
-   body {
-     <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/68751cc5511d08190afe124a/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+    body {
       font-family: 'Open Sans', sans-serif;
       margin: 0;
       background: #f4f6f8;
@@ -66,7 +53,7 @@ s0.parentNode.insertBefore(s1,s0);
       color: #0077b6;
       margin-bottom: 0.5rem;
     }
-    .updates, .programs, .message-form, .reports, .emergency-report {
+    .updates {
       background: white;
       border-radius: 10px;
       padding: 2rem;
@@ -76,38 +63,6 @@ s0.parentNode.insertBefore(s1,s0);
     .update-item {
       border-bottom: 1px solid #eee;
       padding: 0.5rem 0;
-    }
-    .programs-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-    .program-card {
-      background: #f9fafb;
-      border-left: 5px solid #0077b6;
-      padding: 1rem;
-      border-radius: 8px;
-    }
-    .form-group {
-      margin-bottom: 1rem;
-    }
-    .form-group label {
-      display: block;
-      margin-bottom: 0.5rem;
-    }
-    input, textarea, select {
-      width: 100%;
-      padding: 0.5rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    button {
-      background: #0077b6;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
     }
     footer {
       background: #1e2a38;
@@ -132,33 +87,68 @@ s0.parentNode.insertBefore(s1,s0);
 </head>
 <body>
 <header>
-    <h1>🌍 WHO AFGHANISTAN MANAGEMENT PORTAL</h1>
-    <p>"Delivering Health Relief with Urgency, Transparency, and Hope."</p>
+  <h1>🌍 WHO AFGHANISTAN MANAGEMENT PORTAL</h1>
+  <p>"Delivering Health Relief with Urgency, Transparency, and Hope."</p>
 </header>
 <section>
-    <h2>🔹 HOMEPAGE — Dashboard Overview</h2>
-    <div class="stats">
-        <div class="card"><i class="fas fa-syringe"></i><h3>2,500,000+</h3><p>Vaccinations Delivered</p></div>
-        <div class="card"><i class="fas fa-ambulance"></i><h3>7,840</h3><p>Emergency Responses</p></div>
-        <div class="card"><i class="fas fa-hospital"></i><h3>93</h3><p>Operational Health Units</p></div>
-        <div class="card"><i class="fas fa-user-md"></i><h3>12,000+</h3><p>Medical Staff & Volunteers</p></div>
-    </div>
-    <div class="updates">
-        <h3>🟢 Latest Field Updates</h3>
-        <div class="update-item">✔️ Cholera response active in Al Hudaydah – July 10, 2025</div>
-        <div class="update-item">✔️ Mobile clinic deployment to Ma’rib camps – July 9, 2025</div>
-        <div class="update-item">✔️ Cold chain supplies delivered – Sana’a</div>
-    </div>
+  <h2>🔹 HOMEPAGE — Dashboard Overview</h2>
+  <div class="stats">
+    <div class="card"><i class="fas fa-syringe"></i><h3>2,500,000+</h3><p>Vaccinations Delivered</p></div>
+    <div class="card"><i class="fas fa-ambulance"></i><h3>7,840</h3><p>Emergency Responses</p></div>
+    <div class="card"><i class="fas fa-hospital"></i><h3>93</h3><p>Operational Health Units</p></div>
+    <div class="card"><i class="fas fa-user-md"></i><h3>12,000+</h3><p>Medical Staff & Volunteers</p></div>
+  </div>
+  <div class="updates">
+    <h3>🟢 Latest Field Updates</h3>
+    <div class="update-item">✔️ Cholera response active in Al Hudaydah – July 10, 2025</div>
+    <div class="update-item">✔️ Mobile clinic deployment to Ma’rib camps – July 9, 2025</div>
+    <div class="update-item">✔️ Cold chain supplies delivered – Sana’a</div>
+  </div>
 </section>
 <footer>
-    <div><strong>WHO Afghanistan</strong><br>“In service to the people of Afghanistan, with global support and accountability.”</div>
-    <div>
-        📍 WHO Afghanistan Office, Kabul<br>
-        📧 afghanistan.admin@who.int<br>
-        ☎️ +93 XXX XXX XXX
-        <div class="language-switch">🌐 English | دری</div>
-        <div class="download-buttons">📱 <a href="#">Android App</a> <a href="#">iOS App</a></div>
-    </div>
+  <div><strong>WHO Afghanistan</strong><br>“In service to the people of Afghanistan, with global support and accountability.”</div>
+  <div>
+    📍 WHO Afghanistan Office, Kabul<br>
+    📧 afghanistan.admin@who.int<br>
+    ☎️ +93 XXX XXX XXX
+    <div class="language-switch">🌐 English | دری</div>
+    <div class="download-buttons">📱 <a href="#">Android App</a> <a href="#">iOS App</a></div>
+  </div>
 </footer>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+
+// Optional: Custom actions
+Tawk_API.onLoad = function() {
+  // Auto open after 5 seconds
+  setTimeout(function(){
+    Tawk_API.maximize();
+  }, 5000);
+
+  // Optional: Custom welcome message (can also be set in dashboard)
+  Tawk_API.setAttributes({
+    'customMessage': 'Hello! How can we assist you with our programs in Afghanistan today?'
+  }, function(error){});
+};
+
+// Optional: Hide on mobile
+if (window.innerWidth < 768) {
+  Tawk_API = Tawk_API || {};
+  Tawk_API.hideWidget = true;
+}
+
+(function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/68751cc5511d08190afe124a/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
 </body>
 </html>
