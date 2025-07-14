@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WHO Afghanistan Management Portal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/0/0f/Afghanistan_location_map.svg') no-repeat center center/cover;
+      padding: 4rem 2rem;
+      color: white;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .stats {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      flex: 1;
+      min-width: 200px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .card i {
+      font-size: 2rem;
+      color: #0077b6;
+      margin-bottom: 0.5rem;
+    }
+    .updates, .programs, .message-form, .reports, .emergency-report {
+      background: white;
+      border-radius: 10px;
+      padding: 2rem;
+      margin-top: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .update-item {
+      border-bottom: 1px solid #eee;
+      padding: 0.5rem 0;
+    }
+    .programs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .program-card {
+      background: #f9fafb;
+      border-left: 5px solid #0077b6;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: #0077b6;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #1e2a38;
+      color: white;
+      padding: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    footer div {
+      margin-bottom: 1rem;
+    }
+    .language-switch {
+      margin-top: 0.5rem;
+    }
+    .download-buttons a {
+      margin-right: 1rem;
+      color: white;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+<header>
+    <h1>🌍 WHO AFGHANISTAN MANAGEMENT PORTAL</h1>
+    <p>"Delivering Health Relief with Urgency, Transparency, and Hope."</p>
+</header>
+<section>
+    <h2>🔹 HOMEPAGE — Dashboard Overview</h2>
+    <div class="stats">
+        <div class="card"><i class="fas fa-syringe"></i><h3>2,500,000+</h3><p>Vaccinations Delivered</p></div>
+        <div class="card"><i class="fas fa-ambulance"></i><h3>7,840</h3><p>Emergency Responses</p></div>
+        <div class="card"><i class="fas fa-hospital"></i><h3>93</h3><p>Operational Health Units</p></div>
+        <div class="card"><i class="fas fa-user-md"></i><h3>12,000+</h3><p>Medical Staff & Volunteers</p></div>
+    </div>
+    <div class="updates">
+        <h3>🟢 Latest Field Updates</h3>
+        <div class="update-item">✔️ Cholera response active in Al Hudaydah – July 10, 2025</div>
+        <div class="update-item">✔️ Mobile clinic deployment to Ma’rib camps – July 9, 2025</div>
+        <div class="update-item">✔️ Cold chain supplies delivered – Sana’a</div>
+    </div>
+</section>
+<footer>
+    <div><strong>WHO Afghanistan</strong><br>“In service to the people of Afghanistan, with global support and accountability.”</div>
+    <div>
+        📍 WHO Afghanistan Office, Kabul<br>
+        📧 afghanistan.admin@who.int<br>
+        ☎️ +93 XXX XXX XXX
+        <div class="language-switch">🌐 English | دری</div>
+        <div class="download-buttons">📱 <a href="#">Android App</a> <a href="#">iOS App</a></div>
+    </div>
+</footer>
+</body>
+</html>
